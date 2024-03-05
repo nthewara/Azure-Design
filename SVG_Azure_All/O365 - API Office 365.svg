@@ -58,28 +58,28 @@
 		<title
    id="title4">Page-1</title>
 		<g
-   id="group2719-1"
+   id="group3012-1"
    transform="translate(5.66929,-34.0157)">
 			<title
    id="title6">O365 - API Office 365</title>
 			<desc
    id="desc8">This package will provide stencils to visually represent Power Platform: Power Bi, Power Apps, Power Virtual Agents and/or Power Automate devices, architectures or solutions diagrams. It will provide stencils to visually represent features, systems, processes and architectures that use these technologies.</desc>
 			<g
-   id="group2720-2">
+   id="group3013-2">
 				<title
    id="title10">Page-1</title>
 				<g
-   id="group2721-3">
+   id="group3014-3">
 					<title
    id="title12">Power Automate API: Office 365</title>
 					<g
-   id="group2722-4">
+   id="group3015-4">
 						<title
    id="title14">rect5914</title>
 						<g
-   id="shape2723-5">
+   id="shape3016-5">
 							<title
-   id="title16">Sheet.2723</title>
+   id="title16">Sheet.3016</title>
 							<rect
    x="0"
    y="39.685001"
@@ -91,14 +91,14 @@
 						</g>
 					</g>
 					<g
-   id="group2724-7"
+   id="group3017-7"
    transform="translate(12.8133,-8.9467)">
 						<title
    id="title22">polygon5916</title>
 						<g
-   id="shape2725-8">
+   id="shape3018-8">
 							<title
-   id="title24">Sheet.2725</title>
+   id="title24">Sheet.3018</title>
 							<path
    d="M 20.79,57.58 0,65.31 V 88.64 L 7.02,85.86 V 66.88 L 20.79,63.63 V 91.55 L 0,88.64 20.79,96.26 v 0.12 L 32.28,93.11 V 60.85 Z"
    class="st2"

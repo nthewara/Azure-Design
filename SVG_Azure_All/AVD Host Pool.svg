@@ -90,18 +90,18 @@
 		<title
    id="title14">Page-1</title>
 		<g
-   id="group8934-1"
+   id="group9945-1"
    transform="translate(34,-34.0157)">
 			<title
    id="title16">AVD Host Pool</title>
 			<g
-   id="group8935-2">
+   id="group9946-2">
 				<title
    id="title18">HostPools</title>
 				<g
-   id="shape8936-3">
+   id="shape9947-3">
 					<title
-   id="title20">Sheet.8936</title>
+   id="title20">Sheet.9947</title>
 					<circle
    cx="28.3465"
    cy="96.362198"
@@ -111,10 +111,10 @@
    style="fill:url(#grad0-6);stroke:none;stroke-width:34;stroke-linecap:butt" />
 				</g>
 				<g
-   id="shape8937-7"
+   id="shape9948-7"
    transform="translate(28.2931,-12.6492)">
 					<title
-   id="title25">Sheet.8937</title>
+   id="title25">Sheet.9948</title>
 					<path
    d="m 13.55,101.12 v 15.71 L 0,124.71 v -15.73 z"
    class="st2"
@@ -123,10 +123,10 @@
    style="fill:#32bedd;stroke:none;stroke-width:34;stroke-linecap:butt" />
 				</g>
 				<g
-   id="shape8938-9"
+   id="shape9949-9"
    transform="translate(14.7668,-28.3465)">
 					<title
-   id="title30">Sheet.8938</title>
+   id="title30">Sheet.9949</title>
 					<path
    d="M 27.07,116.82 13.55,124.71 0,116.82 13.55,108.94 Z"
    class="st3"
@@ -135,10 +135,10 @@
    style="fill:#9cebff;stroke:none;stroke-width:34;stroke-linecap:butt" />
 				</g>
 				<g
-   id="shape8939-11"
+   id="shape9950-11"
    transform="translate(14.7668,-12.6425)">
 					<title
-   id="title35">Sheet.8939</title>
+   id="title35">Sheet.9950</title>
 					<path
    d="m 13.53,109 v 15.71 L 0,116.82 v -15.7 z"
    class="st4"
@@ -147,10 +147,10 @@
    style="fill:#50e6ff;stroke:none;stroke-width:34;stroke-linecap:butt" />
 				</g>
 				<g
-   id="shape8940-13"
+   id="shape9951-13"
    transform="translate(14.7668,-12.6492)">
 					<title
-   id="title40">Sheet.8940</title>
+   id="title40">Sheet.9951</title>
 					<path
    d="m 0,116.83 13.53,-7.85 v 15.73 z"
    class="st3"
@@ -159,10 +159,10 @@
    style="fill:#9cebff;stroke:none;stroke-width:34;stroke-linecap:butt" />
 				</g>
 				<g
-   id="shape8941-15"
+   id="shape9952-15"
    transform="translate(28.2931,-12.6492)">
 					<title
-   id="title45">Sheet.8941</title>
+   id="title45">Sheet.9952</title>
 					<path
    d="M 13.55,116.83 0,108.98 v 15.73 z"
    class="st4"

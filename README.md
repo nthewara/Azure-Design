@@ -38,7 +38,7 @@ Enter PowerShell and the Visio COM application method. If you review my version 
 3. Gets the current width and height of the icon and scales up or down until either the width or height of the icon is 20mm
 4. Adds Shape data placeholders to support adding metadata when using PowerShell to enumerate Azure resources such as ResourceID for example
 5. Adds connection points to the icon (North, East, South, West, South of Textbox, North East, South East, South West and North West)
-6. Adds a slight drop shadow to the icon
+6. Adds a slight drop shadow to the icon (Removed in version 4.6)
 7. Repositions the default text field to the bottom of the icon
 8. Drops the icon into the main stencil and another copy into the by category stencil
 9. Adds metadata to the stencil master such as Name, Hover, Search (Including the category and icon name)
@@ -51,7 +51,7 @@ With this process I can build and re-build over and over again in minutes and th
 
 ### SVG image of the current full stencil content
 
-![Picture](https://github.com/David-Summers/Azure-Design/blob/master/Example_All-Icons_V-4.3.svg)
+![Picture](https://github.com/David-Summers/Azure-Design/blob/master/Example_All-Icons_V-4.6.svg)
 
 Some example images to show stencil functionality: -
 
@@ -91,31 +91,31 @@ Download only what you need or the entire collection using the links below.
 
 ### **Option 1 - Download the single stencil file that contains all of the icons and drawing tools**
 
-- https://github.com/David-Summers/Azure-Design/raw/master/Azure_All-Icons_V-4.3.vssx
+- https://github.com/David-Summers/Azure-Design/raw/master/Azure_All-Icons_V-4.6.vssx
 
 ### Option 2 - Download the latest full ZIP package containing all stencils, PNG and SVG versions.
 
-- https://github.com/David-Summers/Azure-Design/raw/master/V-4.3.zip
+- https://github.com/David-Summers/Azure-Design/raw/master/V-4.6.zip
 
 ### **Option 3 - Download just the category stencil files that you need** 
 
-- https://github.com/David-Summers/Azure-Design/raw/master/Azure_AI_V-4.3.vssx
-- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Application_V-4.3.vssx
-- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Compute_V-4.3.vssx
-- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Data_V-4.3.vssx
-- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Deployment_V-4.3.vssx
-- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Drawing-Tools_V-4.3.vssx
-- https://github.com/David-Summers/Azure-Design/blob/master/Azure_Dynamics%20365_V-4.3.vssx
-- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Endpoint_V-4.3.vssx
-- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Generic_V-4.3.vssx
-- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Identity_V-4.3.vssx
-- https://github.com/David-Summers/Azure-Design/raw/master/Azure_IoT_V-4.3.vssx
-- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Management_V-4.3.vssx
-- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Networking_V-4.3.vssx
-- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Office365_V-4.3.vssx
-- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Security_V-4.3.vssx
-- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Storage_V-4.3.vssx
-- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Workload_V-4.3.vssx
+- https://github.com/David-Summers/Azure-Design/raw/master/Azure_AI_V-4.6.vssx
+- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Application_V-4.6.vssx
+- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Compute_V-4.6.vssx
+- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Data_V-4.6.vssx
+- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Deployment_V-4.6.vssx
+- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Drawing-Tools_V-4.6.vssx
+- https://github.com/David-Summers/Azure-Design/blob/master/Azure_Dynamics%20365_V-4.6.vssx
+- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Endpoint_V-4.6.vssx
+- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Generic_V-4.6.vssx
+- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Identity_V-4.6.vssx
+- https://github.com/David-Summers/Azure-Design/raw/master/Azure_IoT_V-4.6.vssx
+- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Management_V-4.6.vssx
+- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Networking_V-4.6.vssx
+- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Office365_V-4.6.vssx
+- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Security_V-4.6.vssx
+- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Storage_V-4.6.vssx
+- https://github.com/David-Summers/Azure-Design/raw/master/Azure_Workload_V-4.6.vssx
 
 ### **Option 4 - Don't use Visio?**
 
@@ -172,6 +172,194 @@ Twitter is my primary communication method and if you would like to discuss this
 
 ### Current
 
+#### Version 4.5 - 09/02/2024
+
+Apologies, it has been a while since my last update. H2 of last year was quite busy for me. 
+
+Drop Shadow has been removed from the Visio stencils, based on community feedback I decided to remove the shadow as it impacted non Visio programs rendering imported icons correctly. 
+
+80 new or updated Icons, including the Entra family rebranding.
+
+| Category    | Icon                                           | Status  |
+| ----------- | ---------------------------------------------- | ------- |
+| AI          | AIOps - Data Connector                         | New     |
+| AI          | AIOps - Data LakeHouse                         | New     |
+| AI          | Azure AI Studio                                | New     |
+| AI          | Computer Vision                                | Updated |
+| AI          | Content Safety                                 | New     |
+| AI          | Custom Vision                                  | Updated |
+| AI          | Microsoft Fabric                               | Updated |
+| AI          | Speech Service                                 | Updated |
+| Application | APC Gateway                                    | New     |
+| Application | APC Operator API Connection                    | New     |
+| Application | APC Operator API Plan                          | New     |
+| Application | API Center                                     | New     |
+| Application | App Spaces                                     | New     |
+| Application | Event Grid Namespace                           | New     |
+| Application | Integration Environment                        | New     |
+| Application | Managed CCF App                                | New     |
+| Application | SignalR Replica                                | New     |
+| Application | Web PubSub for Socket.IO                       | New     |
+| Application | Web PubSub Service Replica                     | New     |
+| Compute     | Agent Pool (Operator Nexus)                    | New     |
+| Compute     | Apache Airflow                                 | New     |
+| Compute     | AVD App Attach Package                         | New     |
+| Compute     | AVD Application Group                          | New     |
+| Compute     | AVD Per-user Access Pricing                    | New     |
+| Compute     | AVD Scaling Plan                               | New     |
+| Compute     | AVD User                                       | Updated |
+| Compute     | AVD                                            | Updated |
+| Compute     | Azure HDInsight on AKS                         | New     |
+| Compute     | Cluster Manager (Operator Nexus)               | New     |
+| Compute     | Clusters (Operator Nexus)                      | New     |
+| Compute     | Community Image                                | New     |
+| Compute     | Community Training                             | New     |
+| Compute     | HDInsight on AKS Cluster Pool                  | New     |
+| Compute     | HDInsight on AKS Cluster                       | New     |
+| Compute     | Hybrid AKS Cluster (Operator Nexus)            | New     |
+| Compute     | Kubernetes Cluster (Operator Nexus)            | New     |
+| Compute     | Operator Nexus                                 | New     |
+| Data        | Data LakeHouse                                 | New     |
+| Data        | Data Type                                      | New     |
+| Data        | Oracle Database                                | New     |
+| Data        | Oracle Subscription                            | New     |
+| Identity    | Entra Authentication Method                    | Updated |
+| Identity    | Entra Connect Health                           | Updated |
+| Identity    | Entra Domain Service                           | Updated |
+| Identity    | Entra Global Secure Access                     | Updated |
+| Identity    | Entra ID Governance                            | Updated |
+| Identity    | Entra ID                                       | Updated |
+| Identity    | Entra Internet Access                          | Updated |
+| Identity    | Entra Private Access                           | Updated |
+| Identity    | Entra                                          | Updated |
+| Identity    | Guest Usage                                    | Updated |
+| IoT         | IoT Asset                                      | New     |
+| Management  | Azure Arc Custom Location                      | New     |
+| Management  | Azure Arc IoT                                  | New     |
+| Management  | Billing Subscription                           | New     |
+| Management  | Bulk Operation                                 | New     |
+| Management  | Business Continuity Center                     | New     |
+| Management  | Carbon Emission Details                        | New     |
+| Management  | Carbon Emission Reductions                     | New     |
+| Management  | Carbon Optimisation                            | New     |
+| Management  | Carbon Reductions                              | New     |
+| Management  | Cluster Metrics Configuration (Operator Nexus) | New     |
+| Management  | Dashboard Hub                                  | New     |
+| Management  | Data Connectors                                | New     |
+| Management  | Extended Security Update                       | New     |
+| Management  | Operator Insights – Data Products              | New     |
+| Management  | Playwright Testing                             | New     |
+| Management  | Policy Initiative                              | Updated |
+| Management  | Professional Services                          | New     |
+| Management  | Savings Plan                                   | New     |
+| Networking  | Application Gateways for Containers            | New     |
+| Networking  | Data Collection Endpoint                       | New     |
+| Networking  | IP Address Pool                                | New     |
+| Networking  | Site                                           | New     |
+| Security    | Azure Key Vault Managed HSM                    | New     |
+| Security    | BitLocker Key                                  | New     |
+| Security    | Cloud NGFW                                     | New     |
+| Security    | Local Rulestack for Cloud NGFW                 | New     |
+| Storage     | Storage Actions                                | New     |
+| Storage     | Storage Task                                   | New     |
+
+### Previous
+
+#### **Version** 4.5 - 09/07/2023
+
+24 new icons including the new Fabric service. I think I need a faster computer now as this build total process is now clocking in at 4 hours.
+
+| Category    | Icon                                           | Status  |
+| ----------- | ---------------------------------------------- | ------- |
+| AI          | Computer Vision                                | Updated |
+| AI          | Content Safety                                 | New     |
+| AI          | Custom Vision                                  | Updated |
+| AI          | Microsoft Fabric                               | New     |
+| AI          | Speech Service                                 | Updated |
+| Application | App Spaces                                     | New     |
+| Application | Event Grid Namespace                           | New     |
+| Application | SignalR Replica                                | New     |
+| Application | Web PubSub Service Replica                     | New     |
+| Compute     | Cluster Manager (Operator Nexus)               | New     |
+| Compute     | Clusters (Operator Nexus)                      | New     |
+| Compute     | Hybrid AKS Cluster (Operator Nexus)            | New     |
+| Compute     | Kubernetes Cluster (Operator Nexus)            | New     |
+| Data        | Data LakeHouse                                 | New     |
+| Management  | Billing Subscription                           | New     |
+| Management  | Bulk Operation                                 | New     |
+| Management  | Cluster Metrics Configuration (Operator Nexus) | New     |
+| Management  | Data Connectors                                | New     |
+| Management  | Savings Plan                                   | New     |
+| Networking  | Application Gateways for Containers            | New     |
+| Security    | Azure Key Vault Managed HSM                    | New     |
+| Security    | BitLocker Key                                  | New     |
+| Security    | Cloud NGFW                                     | New     |
+| Security    | Local Rulestack for Cloud NGFW                 | New     |
+
+#### **Version** 4.4 - 21/03/2023
+
+Released 54 new or updated icons. This brings the total collection up to 1,108 icons! and still the most up to date repository I can find on the Net :D 
+
+Resolved an issue with SVG's being imported into Draw.IO. Prior to this release the images would import in with a 1x1px size. Turns out this is an issue with my PowerShell export process using Visio to re-export my stencils to new SVGs after resizing them. This method breaks the Width and Height values. This was fine for Office Applications, but Draw.IO needed these values to render the icons in the right sizing. Had to build a script to read the last 2 values of the ViewBox element and re-write the width and height values at the root of the SVG element after the export. 
+
+| Category    | Icon                                             | Status  |
+| ----------- | ------------------------------------------------ | ------- |
+| AI          | Virtual Appointments Builder                     | New     |
+| Application | API Management API                               | Updated |
+| Application | API Management Authorisation                     | New     |
+| Application | API Management External Cache                    | Updated |
+| Application | API Management Gateway                           | New     |
+| Application | API Management Location                          | New     |
+| Application | API Management Named Value                       | Updated |
+| Application | API Management Policy Fragment                   | New     |
+| Application | API Management Power Platform                    | Updated |
+| Application | API Management Product                           | Updated |
+| Application | API Management Scale Out (auto-scale)            | New     |
+| Application | API Management Schema                            | New     |
+| Application | App Service API                                  | New     |
+| Application | Wordpress and MySQL Flexible server              | New     |
+| Compute     | AKS Cluster Configuration                        | New     |
+| Compute     | AKS Configuration                                | New     |
+| Compute     | AKS Deployment Center                            | New     |
+| Compute     | AKS GitOps                                       | New     |
+| Compute     | AKS Hybrid Cluster                               | New     |
+| Compute     | AKS Namespace                                    | New     |
+| Compute     | AKS Node Pool                                    | New     |
+| Compute     | AKS Open Service Mesh                            | New     |
+| Compute     | AKS Service and Ingress                          | New     |
+| Compute     | AKS Storage                                      | New     |
+| Compute     | AKS Workload                                     | New     |
+| Compute     | Container Registry Cache                         | New     |
+| Compute     | Container Registry Connected Registry            | New     |
+| Compute     | Container Registry Encryption                    | New     |
+| Compute     | Container Registry Networking                    | New     |
+| Compute     | Container Registry Repository                    | New     |
+| Compute     | Container Registry Retention                     | New     |
+| Compute     | Container Registry Scope Map                     | New     |
+| Compute     | Container Registry Task                          | New     |
+| Compute     | Container Registry Token                         | New     |
+| Compute     | Container Registry Webhook                       | New     |
+| Compute     | HDInsight Cluster                                | New     |
+| Deployment  | Azure Deployment Environment                     | New     |
+| Deployment  | Dev Box                                          | New     |
+| Deployment  | Relic Service                                    | New     |
+| Identity    | Cross-tenant Synchronisation                     | New     |
+| Identity    | Identity                                         | New     |
+| Management  | App Compliance Automation Tool for Microsoft 365 | New     |
+| Management  | Data Collection Endpoint                         | New     |
+| Management  | Database Watcher                                 | New     |
+| Management  | Microsoft Graph Data Connect                     | New     |
+| Management  | SCOM Managed Instance                            | New     |
+| Management  | System Integrity Monitoring                      | New     |
+| Networking  | Communications Gateway Test Line                 | New     |
+| Networking  | Network Security Perimeter                       | New     |
+| Networking  | Network Verifier                                 | New     |
+| Networking  | NGINXaaS                                         | New     |
+| Networking  | SIM                                              | New     |
+| Storage     | Azure Managed Lustre                             | New     |
+| Storage     | Qumulo Scalable File Service                     | New     |
+| Storage     | Storage Mover                                    | New     |
+
 #### **Version** 4.3 - 08/11/2022
 
 Some minor tweaks with this release and new drawing tools. Expanding on my dark mode designs, I have included dark mode glow boxes that match the colour scheme of the glow lines. I also added connection points to all of the boxes. 
@@ -209,8 +397,6 @@ Added the following new icons
 | Office365   | O365 - Word                                  | New    |
 | Security    | Global Rulestack                             | New    |
 | Security    | Microsoft Defender EASM                      | New    |
-
-### Previous
 
 #### **Version** 4.2 - 06/07/2022
 
